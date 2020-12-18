@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER/NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="wrap-menu">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </div>
+            <div>
+                <img class="logo" src="images/icons/YouTube-Logo.png" alt="">
+            </div>
+            <div class="search-div">
+                <label for="video-search"></label>
+                <input class="search-bar" type="search" id="video-search" placeholder="Search">
+                <button class="loop">
+                    <img class="loop-img" src="images/icons/loop.png" alt="">
+                </button>
+            </div>
+            <div class="icon-div">
+                <a href="#">
+                    <img class="icons" src="images/icons/account.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icons" src="images/icons/notifications.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icons" src="images/icons/youtube-apps.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icons" src="images/icons/create.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN SECTION -->
+    <section class="main">
+        <section class="video-section">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/OLFcVbJUSDs" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="information">
+                <h1 class="video-title">Kramerica Industries</h1>
+                <p class="views">1,920,507 views 21 Aug 2014</p>
+            </div>
+            <div class="channel">
+                <img class="users" src="images/users/Screen Shot 2020-12-18 at 21.13.53.png" alt="">
+                <h3 class="channel-name">Professor Livengood <br><span>1.82K subscribers</span></h3>
+                <button class="subscribe">SUBSCRIBE</button>
+            </div>
+            <!-- COMMENTS SECTION -->
+            <div class="comments">
+                <h2 class="comment-count">631 Comments <span>SORT BY</span></h2>
+                <div class="account-comment">
+                    <img class="account" src="images/icons/account.png" alt="">
+                    <div class="comment-placeholder">
+                        <label for="comment-section"></label>
+                        <input class="comment-input" type="comment" id="comment-section"
+                            placeholder="Add a public comment...">
+                    </div>
+                </div>
+            </div>
+            <div class="users-comments">
+                <img class="users" src="images/users/Screen Shot 2020-12-18 at 20.41.40.png" alt="">
+                <div id="comment">
+                    <h3 class="users-name">Joe Bagof doughnuts<span> 4 years ago</span></h3>
+                    <p class="users-comment">Do you have any idea how much time I waste on Youtube?</p>
+                    <p class="users-comment">2.3K <span>REPLY</span></p>
+                    <p class="replies">View 39 replies</p>
+                </div>
+            </div>
+            <div class="users-comments">
+                <img class="users" src="images/users/Screen Shot 2020-12-18 at 20.41.45.png" alt="">
+                <div>
+                    <h3 class="users-name">Racing Red<span> 3 years ago</span></h3>
+                    <p class="users-comment">It's sad that Darren was only in one episode. It would've been great if Kramer and him would've come up with some crazy plans in more episodes</p>
+                    <p class="users-comment">1.2K <span>REPLY</span></p>
+                    <p class="replies">View 23 replies</p>
+                </div>
+            </div>
+            <div class="users-comments">
+                <img class="users" src="images/users/Screen Shot 2020-12-18 at 20.41.54.png" alt="">
+                <div>
+                    <h3 class="users-name">James Relich<span> 4 years ago</span></h3>
+                    <p class="users-comment">I love how Kramer's response is not to try and build a better bladder system, but to instead just move on to the next crazy idea.</p>
+                    <p class="users-comment">877 <span>REPLY</span></p>
+                    <p class="replies">View 13 replies</p>
+                </div>
+            </div>
+            <div class="users-comments">
+                <img class="users" src="images/users/Screen Shot 2020-12-18 at 20.42.00.png" alt="">
+                <div>
+                    <h3 class="users-name">Jason<span> 3 years ago</span></h3>
+                    <p class="users-comment">Kramerica Industries presents: "Ketch-a-Turd" Ketchup and mustard in the same bottle!</p>
+                    <p class="users-comment">140 <span>REPLY</span></p>
+                    <p class="replies">View 7 replies</p>
+                </div>
+            </div>
+            <div class="users-comments">
+                <img class="users" src="images/users/Screen Shot 2020-12-18 at 20.42.06.png" alt="">
+                <div>
+                    <h3 class="users-name">Rusty<span> 4 years ago</span></h3>
+                    <p class="users-comment"><span class="minute">0:32</span> I love how Jerry doesn’t take a micro second before saying “No resources, no skill, no talent, no ability, no brains...”</p>
+                    <p class="users-comment">60 <span>REPLY</span></p>
+            
+                </div>
+            </div>
+        </section>
+
+        <!-- THUMBNAILS -->
+        <aside class="thumbnails">
+            <div class="thumbnail">
+                <img class="thumbnail" src="images/thumbnails/elein.jpg" alt="">
+                <h3>The red dot</h3>
+                <p>Laurentiu Curca</p>
+                <p>1.3M views 11 years ago</p>
+            </div>
+            <div class="thumbnail">
+                <img class="thumbnail" src="images/thumbnails/elaine.jpg" alt="">
+                <h3>One of the best Seinfeld lines Ever</h3>
+                <p>metalfan8806</p>
+                <p>2.3M views 11 years ago</p>
+            </div>
+            <div class="thumbnail">
+                <img class="thumnail" src="images/thumbnails/seinfeld-img.jpg" alt="">
+                <h3>Seinfeld - <br> "Of course Sodomy is a Prerequisite"</h3>
+                <p>KDIXradio</p>
+                <p>743K views 10 years ago</p>
+            </div>
+            <div class="thumbnail">
+                <img class="thumnail" src="images/thumbnails/georgejerry.jpg" alt="">
+                <h3>It's not you it's me</h3>
+                <p>mrbirdnyc</p>
+                <p>1.5M views 11 years ago</p>
+            </div>
+            <div class="thumbnail">
+                <img class="thumnail" src="images/thumbnails/seinfeldimg2.jpeg" alt="">
+                <h3>Elaine & Hell</h3>
+                <p>Clipper Joe</p>
+                <p>540K views 7 years ago</p>
+            </div>
+        </aside>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
